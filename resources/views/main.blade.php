@@ -22,7 +22,9 @@
                         <label class="custom-file-label" for="train" id="label">Choose CSV file...</label>
                         <div class="invalid-feedback">No File Choosen</div>
                     </div>
-                    <button class="btn btn-primary mt-2" type="submit">Submit</button>
+                    <center>
+                        <button class="btn btn-primary mt-2" type="submit">Submit</button>
+                    </center>
                 </form> 
             </section>
         </div>
