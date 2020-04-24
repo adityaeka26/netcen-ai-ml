@@ -93,15 +93,13 @@ class NaiveBayesController extends Controller {
         array_shift($samples);
         array_shift($labels);
         // var_dump($column);
-
-        // return ;
         
         $classifier = new NaiveBayes();
         $classifier->train($samples, $labels);
 
         $request->session()->put('classifier', $classifier);
 
-        return view('exec', [
+        return view('exec2', [
             'columns' => array_combine($columnName, $column),
         ]);
     }

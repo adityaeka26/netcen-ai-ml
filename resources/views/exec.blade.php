@@ -9,7 +9,7 @@
 <body>
     Input data yang akan dilakukan klasifikasi
     <form action="{{ url('result') }}" method="POST">
-        <table>
+        <table class="table">
             <?php $i = 0; foreach ($columns as $key => $column) { ?>
             <tr>
                 <td>
