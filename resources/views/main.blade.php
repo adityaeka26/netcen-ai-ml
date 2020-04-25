@@ -14,7 +14,7 @@
     </nav>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4 text-center mt-4">Welcome!</h1>
+            <h1 class="display-4 text-center mt-4">Input Data Train</h1>
             <section>
                 <form class="was-validated mt-5" action="{{ url('exec') }}" method="POST" enctype="multipart/form-data">
                     <div class="custom-file">
@@ -27,6 +27,14 @@
                     </center>
                 </form> 
             </section>
+            <div class="mt-5" style="font-size: 20px;">
+                <center >
+                    Kelompok :<br>
+                    Aditya Eka Bagaskara <br>
+                    Fareza Adityanto <br>
+                    Muhammad Rakha Mukhlianda <br>  
+                </center>
+            </div>            
         </div>
     </div>
 
